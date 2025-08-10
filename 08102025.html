@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>STRUCTOVOLT Pvt. Ltd. | Engineering Excellence</title>
+
+  <meta name="description" content="STRUCTOVOLT is a leading industrial engineering and trading company in India, offering VFDs, electrical goods, civil works, and consultancy services.">
+
+  <meta property="og:title" content="STRUCTOVOLT Pvt. Ltd." />
+  <meta property="og:description" content="One-stop solution for industrial engineering, electrical and civil works, and technical consulting." />
+  <meta property="og:image" content="logo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* Testimonial Slider CSS */
+    #testimonials {
+      max-width: 700px;
+      margin: 40px auto;
+      text-align: center;
+      position: relative;
+      font-family: Arial, sans-serif;
+    }
+
+    .testimonial-slider {
+      overflow: hidden;
+      position: relative;
+      min-height: 120px;
+    }
+
+    .testimonial {
+      display: none;
+      font-style: italic;
+      font-size: 1.1rem;
+      padding: 20px;
+      color: #222;
+    }
+
+    .testimonial.active {
+      display: block;
+    }
+
+    .testimonial h4 {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #003366;
+    }
+
+    .testimonial-prev,
+    .testimonial-next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      background: transparent;
+      border: none;
+      color: #003366;
+      padding: 5px 10px;
+      user-select: none;
+    }
+
+    .testimonial-prev {
+      left: 0;
+    }
+
+    .testimonial-next {
+      right: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<a href="https://wa.me/919079149585" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+  <img src="whatsapp-icon.png" alt="WhatsApp Chat" />
+</a>
+
+<div class="menu-toggle" onclick="toggleSidebar()">☰</div>
+
+<div class="sidebar" id="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
+  <a href="#about" class="sidebar-link">About Us</a>
+  <a href="#services" class="sidebar-link">Services</a>
+  <a href="#projects" class="sidebar-link">Projects</a>
+  <a href="#why" class="sidebar-link">Why Choose Us</a>
+  <a href="#contact" class="sidebar-link">Contact</a>
+</div>
+
+<header class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <img src="logo.png" alt="STRUCTOVOLT Logo" class="logo">
+    <h1>Engineering Excellence | Quality | Innovation</h1>
+    <nav class="navbar">
+  <a href="#services">Services</a>
+  <a href="#why">Why Choose Us</a>
+  <a href="#about">About Us</a>
+  <a href="#contact">Contact</a>
+  <a href="https://shubtechproject.blogspot.com/" target="_blank" rel="noopener noreferrer">Blog</a>
+</nav>
+  </div>
+</header>
+
+<section id="slider">
+  <div class="sidebar" id="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
+  <a href="#about" class="sidebar-link">About Us</a>
+  <a href="#services" class="sidebar-link">Services</a>
+  <a href="#projects" class="sidebar-link">Projects</a>
+  <a href="#why" class="sidebar-link">Why Choose Us</a>
+  <a href="#contact" class="sidebar-link">Contact</a>
+  <a href="https://shubtechproject.blogspot.com/" target="_blank" rel="noopener noreferrer">Blog</a>
+</div>
+
+</section>
+
+<section id="slider">
+  <div class="slider-container">
+    <div class="slides">
+      <div class="slide active">
+        <img src="images/vfd_panel.webp" alt="VFD Panel" />
+      </div>
+      <div class="slide">
+        <img src="images/plc_panel.webp" alt="PLC Panel" />
+      </div>
+      <div class="slide">
+        <img src="images/vfd__panel.webp" alt="Engineering VFD Design" />
+      </div>
+    </div>
+
+    <button class="slider-btn prev">&#10094;</button>
+    <button class="slider-btn next">&#10095;</button>
+
+    <div class="dots">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+    </div>
+  </div>
+</section>
+
+
+<section id="services">
+  <h2>Our Core Segments</h2>
+  <div class="service-grid">
+    <div class="service">
+      <h3>Industrial Electrical Goods</h3>
+      <p>VFDs (ABB, Mitsubishi, Delta, Siemens), Switchgears, Solar Panels, Industrial Inverters</p>
+    </div>
+    <div class="service">
+      <h3>Galvanized Wire</h3>
+      <p>GI Cold Dip, Hot Dip, Mesh, Fencing, and Net Wires</p>
+    </div>
+    <div class="service">
+      <h3>Coal Trading</h3>
+      <p>Quality-assured thermal & industrial coal solutions</p>
+    </div>
+    <div class="service">
+      <h3>Rolling Mill Consultancy</h3>
+      <p>Turnkey and customized engineering solutions</p>
+    </div>
+    <div class="service">
+      <h3>Solar Farming</h3>
+      <p>Design, installation, and optimization of solar systems</p>
+    </div>
+    <div class="service">
+      <h3>Fabrication & Civil Works</h3>
+      <p>Steel fabrication, civil contracting, material supply</p>
+    </div>
+    <div class="service">
+      <h3>Financial & GI Plant Consultancy</h3>
+      <p>Project planning, setup, and process improvement</p>
+    </div>
+    <div class="service">
+      <h3>Manpower Supply</h3>
+      <p>Skilled & unskilled labor for engineering roles</p>
+    </div>
+    <div class="service">
+      <h3>Electrical Drawing</h3>
+      <p>Design SLD, GA, Schematic, Load Calculation</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Our Consulting Projects</h2>
+  <div class="project-gallery">
+    <div class="project-card">
+      <img src="vfd_panel.jpg" alt="VFD Panel Project">
+      <p>VFD Panel Installation – Gujarat</p>
+    </div>
+    <div class="project-card">
+      <img src="Electrical_Drawing.jpg" alt="Drawing Consulting">
+      <p>Electrical Drawing Consultancy – United States of America</p>
+    </div>
+    <div class="project-card">
+      <img src="vfd__panel.jpg" alt="EOT Crane Panel">
+      <p>EOT Panel System Installation – United States of America</p>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <h2>Why Choose STRUCTOVOLT?</h2>
+  <ul>
+    <li>✅ One-stop industrial trading & service partner</li>
+    <li>✅ Trusted brands & certified consultants</li>
+    <li>✅ On-time project delivery</li>
+    <li>✅ PAN-India presence</li>
+  </ul>
+</section>
+
+<!-- New Testimonial Slider Section -->
+<section id="testimonials">
+  <h2>Client Testimonials</h2>
+  <div class="testimonial-slider">
+    <div class="testimonial active">
+      <p>"Reliable and timely delivery. Highly recommend STRUCTOVOLT!"</p>
+      <h4>- STRUCTOVOLT Pvt Ltd.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Their VFD consultancy saved us 30% energy."</p>
+      <h4>- Mega Power Pvt Ltd.</h4>
+    </div>
+    <div class="testimonial">
+      <p>"StructoVolt delivered on time with excellent results!"</p>
+      <h4>- STRUCTOVOLT Pvt Ltd.</h4>
+    </div>
+  </div>
+  <button class="testimonial-prev">&#10094;</button>
+  <button class="testimonial-next">&#10095;</button>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Founded in 2025, STRUCTOVOLT delivers enduring steel consultancy with expertise, innovation, and unwavering quality.</p>
+  <p>StructoVolt Pvt. Ltd. is a trusted name in the industrial sector...</p>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="brochure.pdf" download class="download-btn">📄 Download Brochure</a>
+  </div>
+</section>
+
+<section id="team">
+  <h2>Leadership Message</h2>
+  <div class="director">
+    <img src="Shubham singh.jpg" alt="Mr. Shubham Kumar Singh" style="height: 250px; width: 250px; border-radius: 0;">
+    <h3>Mr. Shubham Kumar Singh</h3>
+    <p><strong>Founder & Managing Director</strong></p>
+    <p>At STRUCTOVOLT, our vision is to lead with innovation and deliver excellence in every project. We are deeply committed to quality, safety, and sustainability while building strong, lasting partnerships with our clients. Understanding their unique needs allows us to provide tailored solutions with integrity and precision. Behind every achievement is a passionate team driven by innovation and teamwork. We foster a culture of continuous learning and embrace challenges to create value and empower industries through cutting-edge technology and unmatched service. Together, we engineer a better tomorrow.</p>
+  </div>
+  <div class="director">
+    <img src="director.jpg" alt="Mr. Sanjay kumar mishra" style="height: 150px; border-radius: 50%;">
+    <h3>Mr. Sanjay kumar mishra</h3>
+    <p><strong>Founder & Managing Director</strong></p>
+    <p>We combine engineering precision with practical solutions...</p>
+  </div>
+</section>
+
+<section id="vision">
+  <h2>Our Vision & Mission</h2>
+  <ul>
+    <li>Reliable and high-quality industrial materials and services</li>
+    <li>Drive success through innovation and efficiency</li>
+    <li>Long-term partnerships through integrity</li>
+    <li>Cost-effective and sustainable solutions</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <form action="mailto:structovolt@gmail.com" method="POST" enctype="text/plain" style="max-width: 600px; margin: auto; padding-top: 20px;">
+    <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+    <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin-bottom: 10px;">
+    <textarea name="message" rows="5" placeholder="Your Message" required style="width: 100%; padding: 10px;"></textarea>
+    <button type="submit" style="margin-top: 10px; padding: 10px 20px; background: #003366; color: #fff; border: none;">Send</button>
+  </form>
+
+  <h2>Contact Us</h2>
+  <p><strong>Email:</strong> structovolt@gmail.com</p>
+  <p><strong>Phone:</strong> +91-9079149585</p>
+  <p><strong>Head Office:</strong> Sector 6, Plot No. 487, UIT, Bhiwadi, Rajasthan</p>
+  <p><strong>Branch Office:</strong> Chandani Chowk, Muzaffarpur, Bihar</p>
+  <p><strong>WhatsApp:</strong> <a href="https://wa.me/919079149585" target="_blank">Chat Now</a></p>
+</section>
+
+<div style="margin-top: 200px;">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3342.253500401317!2d76.8398223!3d28.200204700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d379034430953%3A0x623081806e9a8fab!2sShubham%20House!5e1!3m2!1sen!2sin!4v1754831404977!5m2!1sen!2sin" width="300%" height="250" style="border:0;  max-width: 1500px;"" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+<footer>
+  <p>© 2025 STRUCTOVOLT Pvt. Ltd. All rights reserved.</p>
+  <p>Visit our Blog: <a href="https://shubtechproject.blogspot.com/" target="_blank" rel="noopener noreferrer">shubtechproject.blogspot.com</a></p>
+</footer>
+
+
+<script>
+  // Slider Script for image slider
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.slide');
+  const prevBtn = document.querySelector('.prev');
+  const nextBtn = document.querySelector('.next');
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (i === index) slide.classList.add('active');
+    });
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  function prevSlide() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  nextBtn.addEventListener('click', () => {
+    nextSlide();
+    resetTimer();
+  });
+
+  prevBtn.addEventListener('click', () => {
+    prevSlide();
+    resetTimer();
+  });
+
+  let slideTimer = setInterval(nextSlide, 4000);
+
+  function resetTimer() {
+    clearInterval(slideTimer);
+    slideTimer = setInterval(nextSlide, 4000);
+  }
+
+  // Sidebar toggle script
+  function toggleSidebar() {
+    const sidebar = document.getElementById("sidebar");
+    sidebar.style.width = sidebar.style.width === "250px" ? "0" : "250px";
+  }
+
+  document.addEventListener('click', function (e) {
+    const sidebar = document.getElementById("sidebar");
+    const toggle = document.querySelector('.menu-toggle');
+    if (!sidebar.contains(e.target) && !toggle.contains(e.target)) {
+      sidebar.style.width = "0";
+    }
+  });
+
+  document.querySelectorAll('.sidebar-link').forEach(link => {
+    link.addEventListener('click', () => {
+      document.getElementById("sidebar").style.width = "0";
+    });
+  });
+
+  // Testimonial slider script
+  const testimonials = document.querySelectorAll('.testimonial');
+  const testimonialPrev = document.querySelector('.testimonial-prev');
+  const testimonialNext = document.querySelector('.testimonial-next');
+  let currentTestimonial = 0;
+
+  function showTestimonial(index) {
+    testimonials.forEach((t, i) => {
+      t.classList.toggle('active', i === index);
+    });
+  }
+
+  testimonialNext.addEventListener('click', () => {
+    currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+    showTestimonial(currentTestimonial);
+  });
+
+  testimonialPrev.addEventListener('click', () => {
+    currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
+    showTestimonial(currentTestimonial);
+  });
+
+  setInterval(() => {
+    currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+    showTestimonial(currentTestimonial);
+  }, 5000);
+
+  // Initial testimonial display
+  showTestimonial(currentTestimonial);
+</script>
+<script>
+  const slides = document.querySelectorAll('.slide');
+  const prevBtn = document.querySelector('.slider-btn.prev');
+  const nextBtn = document.querySelector('.slider-btn.next');
+  const dots = document.querySelectorAll('.dot');
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    if(index >= slides.length) index = 0;
+    if(index < 0) index = slides.length - 1;
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === index);
+      dots[i].classList.toggle('active', i === index);
+    });
+    currentSlide = index;
+  }
+
+  nextBtn.addEventListener('click', () => {
+    showSlide(currentSlide + 1);
+  });
+
+  prevBtn.addEventListener('click', () => {
+    showSlide(currentSlide - 1);
+  });
+
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      showSlide(parseInt(dot.dataset.index));
+    });
+  });
+
+  // Auto slide every 4 seconds
+  setInterval(() => {
+    showSlide(currentSlide + 1);
+  }, 4000);
+</script>
+
+</body>
+</html>
